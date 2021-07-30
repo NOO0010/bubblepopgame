@@ -8,14 +8,14 @@ global.scor = 100;
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 6581F89D
-/// @DnDArgument : "times" "80"
-repeat(80)
+/// @DnDArgument : "times" "500"
+repeat(500)
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 2DDD1B59
 	/// @DnDParent : 6581F89D
-	/// @DnDArgument : "code" "$(13_10)//var ranx = choose(16, 32, 48, 64, 80, 96, 112, 128, 144, 160);$(13_10)$(13_10)//var rany = choose(16, 32, 48, 64, 80, 96, 112, 128);$(13_10)	$(13_10)random_set_seed(randomize())$(13_10)	$(13_10)var ranx = floor(random_range(1, 10 + 1))*64;$(13_10)	$(13_10)var rany = floor(random_range(1, 8 + 1))*64;$(13_10)$(13_10)var inst = floor(random_range(1, 4 + 1));$(13_10)$(13_10)//	if(inst == 1)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", red);$(13_10)//	}$(13_10)		$(13_10)//	if(inst == 2)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", Object2);$(13_10)//	}$(13_10)		$(13_10)//	if(inst == 3)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", green);$(13_10)//	}$(13_10)		$(13_10)//	if(inst == 4)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", blue);$(13_10)//	}$(13_10)$(13_10)//}$(13_10)$(13_10)"
+	/// @DnDArgument : "code" "$(13_10)//var ranx = choose(16, 32, 48, 64, 80, 96, 112, 128, 144, 160);$(13_10)$(13_10)//var rany = choose(16, 32, 48, 64, 80, 96, 112, 128);$(13_10)	$(13_10)random_set_seed(randomize())$(13_10)	$(13_10)var ranx = floor(random_range(1, 10 + 1))*64;$(13_10)	$(13_10)var rany = floor(random_range(1, 12 + 1))*64;$(13_10)$(13_10)var inst = floor(random_range(1, 4 + 1));$(13_10)$(13_10)//	if(inst == 1)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", red);$(13_10)//	}$(13_10)		$(13_10)//	if(inst == 2)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", Object2);$(13_10)//	}$(13_10)		$(13_10)//	if(inst == 3)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", green);$(13_10)//	}$(13_10)		$(13_10)//	if(inst == 4)$(13_10)//	{$(13_10)//		position_destroy(ranx, rany);$(13_10)//		instance_create_layer(ranx, rany, "Instances_1", blue);$(13_10)//	}$(13_10)$(13_10)//}$(13_10)$(13_10)"
 	
 	//var ranx = choose(16, 32, 48, 64, 80, 96, 112, 128, 144, 160);
 	
@@ -25,7 +25,7 @@ repeat(80)
 		
 	var ranx = floor(random_range(1, 10 + 1))*64;
 		
-	var rany = floor(random_range(1, 8 + 1))*64;
+	var rany = floor(random_range(1, 12 + 1))*64;
 	
 	var inst = floor(random_range(1, 4 + 1));
 	
