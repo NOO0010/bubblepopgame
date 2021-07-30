@@ -39,6 +39,7 @@ if(bubbletype == 2)
 	/// @DnDArgument : "xpos" "353"
 	/// @DnDArgument : "ypos" "1057"
 	/// @DnDArgument : "objectid" "BubbleColRed"
+	/// @DnDSaveInfo : "objectid" "BubbleColRed"
 	instance_create_layer(353, 1057, "Instances", BubbleColRed);
 }
 
@@ -56,6 +57,7 @@ if(bubbletype == 3)
 	/// @DnDArgument : "xpos" "353"
 	/// @DnDArgument : "ypos" "1057"
 	/// @DnDArgument : "objectid" "BubbleColYellow"
+	/// @DnDSaveInfo : "objectid" "BubbleColYellow"
 	instance_create_layer(353, 1057, "Instances", BubbleColYellow);
 }
 
@@ -73,6 +75,7 @@ if(bubbletype == 4)
 	/// @DnDArgument : "xpos" "353"
 	/// @DnDArgument : "ypos" "1057"
 	/// @DnDArgument : "objectid" "BubbleColBlue"
+	/// @DnDSaveInfo : "objectid" "BubbleColBlue"
 	instance_create_layer(353, 1057, "Instances", BubbleColBlue);
 }
 

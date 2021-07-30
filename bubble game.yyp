@@ -14,6 +14,7 @@
     {"id":{"name":"Sprite2col","path":"sprites/Sprite2col/Sprite2col.yy",},"order":11,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":7,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":6,},
+    {"id":{"name":"controller","path":"objects/controller/controller.yy",},"order":15,},
     {"id":{"name":"BubbleColRed","path":"objects/BubbleColRed/BubbleColRed.yy",},"order":9,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":15,},
     {"id":{"name":"BubbleColYellow","path":"objects/BubbleColYellow/BubbleColYellow.yy",},"order":10,},
@@ -71,7 +72,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "bubble game",
