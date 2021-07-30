@@ -1,3 +1,20 @@
+/// @DnDAction : YoYo Games.Data Structures.Create_Grid
+/// @DnDVersion : 1
+/// @DnDHash : 659AD2C3
+/// @DnDArgument : "var" "colmap"
+/// @DnDArgument : "width" "10"
+/// @DnDArgument : "height" "8"
+colmap = ds_grid_create(10, 8);
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 736E4047
+/// @DnDArgument : "var" "colmap"
+/// @DnDArgument : "x" "128"
+/// @DnDArgument : "y" "128"
+/// @DnDArgument : "value" "true"
+ds_grid_set(colmap, 128, 128, true);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2DDD1B59
@@ -40,9 +57,3 @@ repeat(250)
 	}
 
 }
-
-/// @DnDAction : YoYo Games.Data Structures.Create_Grid
-/// @DnDVersion : 1
-/// @DnDHash : 32500EF1
-/// @DnDArgument : "var" "colmap"
-colmap = ds_grid_create(1, 1);

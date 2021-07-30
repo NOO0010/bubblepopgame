@@ -1,0 +1,6 @@
+/// @DnDAction : YoYo Games.Instances.Change_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 071B5CC9
+/// @DnDArgument : "objind" "bubblepopgreen"
+/// @DnDSaveInfo : "objind" "bubblepop"
+instance_change(bubblepopgreen, true);
