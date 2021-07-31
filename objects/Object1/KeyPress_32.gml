@@ -5,3 +5,10 @@
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "global.scor"
 global.scor += -1;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 536B0553
+/// @DnDArgument : "soundid" "Shoot"
+/// @DnDSaveInfo : "soundid" "Shoot"
+audio_play_sound(Shoot, 0, 0);
