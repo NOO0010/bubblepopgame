@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2189CA84
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "global.scor"
+global.scor += 1;
+
 /// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
 /// @DnDVersion : 1
 /// @DnDHash : 611F8B47
