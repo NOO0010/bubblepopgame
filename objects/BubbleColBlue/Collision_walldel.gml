@@ -78,3 +78,8 @@ if(bubbletype == 4)
 	/// @DnDSaveInfo : "objectid" "BubbleColBlue"
 	instance_create_layer(353, 1057, "Instances", BubbleColBlue);
 }
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 45014A77
+instance_destroy();

@@ -30,6 +30,7 @@
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"green","path":"objects/green/green.yy",},"order":6,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"con2","path":"objects/con2/con2.yy",},"order":17,},
     {"id":{"name":"Sprite8col","path":"sprites/Sprite8col/Sprite8col.yy",},"order":9,},
     {"id":{"name":"Bubblepopred","path":"objects/Bubblepopred/Bubblepopred.yy",},"order":12,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

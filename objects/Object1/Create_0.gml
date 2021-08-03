@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 3DB8E46C
-/// @DnDArgument : "expr" "100"
-/// @DnDArgument : "var" "global.scor"
-global.scor = 100;
-
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 6581F89D
